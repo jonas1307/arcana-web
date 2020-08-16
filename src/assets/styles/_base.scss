@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  padding: 3rem;
+  background-color: $color-background;
+}
+
+a {
+  &:link,
+  &:visited {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $color-white;
+  }
+
+  &:hover,
+  &:active {
+    background-position: 100%;
+    color: $color-secondary;
+    transform: translateX(1rem);
+  }
+}
