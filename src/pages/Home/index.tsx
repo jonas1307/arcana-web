@@ -14,7 +14,11 @@ function Home() {
       <footer className="footer">
         <div className="row">
           <div className="col-1-of-2">
-            Menu
+            <nav className="footer-nav">
+              <a href="#" className="footer-nav-item">About</a>
+              <a href="#" className="footer-nav-item">Disclaimer</a>
+              <a href="#" className="footer-nav-item">Licence</a>
+            </nav>
           </div>
           <div className="col-1-of-2">
             <p>This website was developed by <a href="https://jonasamorim.dev">Jonas Amorim</a> for his project named Arcana.</p>

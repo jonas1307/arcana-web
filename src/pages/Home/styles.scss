@@ -28,4 +28,9 @@
   background-color: $color-grey-dark-3;
   padding: 10rem 0;
   font-size: 1.4rem;
+
+  .footer-nav {
+    display: flex;
+    justify-content: space-around;
+  }
 }
